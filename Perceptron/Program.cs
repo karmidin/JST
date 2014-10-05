@@ -72,6 +72,7 @@ namespace Perceptron
                 }
 
                 Console.Write("Net = ");
+                Console.WriteLine("");
                 for (int i = 0; i < 4; i++)
                 {
                     net[i] = (x1[i] * w1) + (x2[i] * w2) + (x3[i] * w3) + (x4[i] * w4) + b;
